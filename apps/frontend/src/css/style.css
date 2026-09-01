@@ -92,3 +92,14 @@ main h2:hover {
     color: aqua;
     transform:scale(1.05);
 }
+
+main h3 {
+    text-align:center;
+    font-size: 40px;
+    color: darkgreen;
+}
+
+main h3:hover {
+    color: slategray;
+    transform:scale(1.05);
+}

@@ -1,0 +1,105 @@
+:root {
+    --bg: #f4f6fb;
+    --surface: #ffffff;
+    --text: #1f2937;
+    --muted: #6b7280;
+    --primary: #1d4ed8;
+    --primary-hover: #1e40af;
+    --danger: #b91c1c;
+    --danger-hover: #991b1b;
+    --border: #d1d5db;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(180deg, #eef2ff 0%, var(--bg) 100%);
+    color: var(--text);
+}
+.header {
+    /*background: linear-gradient(to right, #0a356d, #273b88, #5a38a0);*/
+    background: linear-gradient(180deg, #18181b 0%, var(--bg) 100%);
+    padding: 12px 25px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 100px;
+    display: block;
+    border-radius: 6px;
+}
+
+.titulo {
+    /*flex: 2;     */                   /* Ocupa el centro */
+    text-align: center;             /* Centra el texto */
+    margin: 0;                      /* Quita márgenes por defecto */
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+.nav {
+   /* float: right;*/
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+/*
+.nav li {
+    float: left;
+    margin-left: 20px;
+}*/
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+main {
+    min-height: 80vh;       /* Le da una altura al contenedor */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra el contenido verticalmente */
+    align-items: center;     /* Centra el contenido horizontalmente */
+}
+
+main h1 {
+    text-align: center;
+    font-size: 50px;
+    color:#991b1b
+}
+
+main h1:hover {
+    color: #f59e0b;
+    transform: scale(1.05);
+}
+
+main h2 {
+    text-align: center;
+    font-size: 45px;
+    color:#1d4ed8
+}
+
+main h2:hover {
+    color: aqua;
+    transform:scale(1.05);
+}
+
+main h3 {
+    text-align:center;
+    font-size: 40px;
+    color: darkgreen;
+}
+
+main h3:hover {
+    color: slategray;
+    transform:scale(1.05);
+}
